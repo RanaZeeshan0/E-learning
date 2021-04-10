@@ -19,6 +19,14 @@ const routes: Routes = [
     path: 'login-page',
     loadChildren: () => import('./login-page/login-page.module').then( m => m.LoginPagePageModule)
   },
+  {
+    path: 'phone-verify',
+    loadChildren: () => import('./phone-verify/phone-verify.module').then( m => m.PhoneVerifyPageModule)
+  },
+  {
+    path: 'search-providers',
+    loadChildren: () => import('./search-providers/search-providers.module').then( m => m.SearchProvidersPageModule)
+  },
 ];
 
 @NgModule({

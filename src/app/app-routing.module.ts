@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'start-slides',
+    loadChildren: () => import('./start-slides/start-slides.module').then( m => m.StartSlidesPageModule)
+  },
+  {
+    path: 'login-page',
+    loadChildren: () => import('./login-page/login-page.module').then( m => m.LoginPagePageModule)
+  },
 ];
 
 @NgModule({

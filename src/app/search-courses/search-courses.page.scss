@@ -59,18 +59,34 @@ a{
     border-radius: 30px;
 }
 .CardHeader{
-    padding-top: 5px;
-    padding-right: 0;
-    padding-left: 30px;
+    width: 30% !important;
+    padding: 0;
+}
+.MyCorsesCardHeadrImg{
+    width: 100%;
+    height: 100%;
 }
 .cardSubTittle1{
     color: #6677ff;
     padding-top: 5px;
+    font-size: 12px;
+}
+.card3RDSubTittle1{
+    color: black;
+    padding-top: 5px;
+    font-size: 16px;
 }
 .StarIcon{
     margin-top: 5px;
     color: #ffc350;
     font-size: 16px;
+}
+.RatingVoteText1{
+    position: absolute;
+    right: 5%;
+    color: #5468ff;
+    font-size: 14px;
+    font-weight: 700;
 }
 .RatingVoteText{
     margin-top: 5px;
@@ -89,4 +105,58 @@ a{
 }
 .CardRow{
     margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+.slid2-main-head{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.slid2-3rdCrd-main-head{
+    font-size: 14px;
+    color: #a4b9c9;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.ion-text-left{
+    width: 70% !important;
+    padding: 0;
+    padding-left: 10px;
+}
+.VideoIcon{
+    background: #2d8cff;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+}
+.UpcomingBtn{
+    --background: #ffc2505b;
+    --color: #ffc350;
+    width: 40%;
+    height: 35px;
+    font-size: 12px;
+    margin-top: 0;
+}
+.crd-sb-title{
+    text-align: start;
+    margin-top: 5px;
+    color: #2d8cff;
+}
+.CrdSubtittleAvatar{
+    width: 35px;
+    height: 35px;
+}
+.Avatarsubtitle{
+    display: inline-flex;
+}
+.AvatarCrdTITTLE{
+    text-align: center;
+    padding-left: 5px;
+    font-weight: 600;
+    padding-top: 5px;
 }

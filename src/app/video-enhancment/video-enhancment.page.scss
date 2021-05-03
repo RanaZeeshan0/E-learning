@@ -1,0 +1,64 @@
+.BackBtnIcon{
+    position: absolute;
+    left: 4%;
+    color: black;
+    font-size: 30px;
+    
+}
+.Title{
+    font-size: 24px;
+    padding-left: 18%;
+    color: black;
+    margin-top: 7%;
+    margin-bottom: 5%;
+
+}
+.Headr{
+    height: 60%;
+    background: url(../../assets/images/video-img.jpg);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+    
+}
+.IconBoxVideo{
+width: 45px;
+height: 45px;
+background: white;
+border-radius: 100%;
+padding: 5px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 37%;
+}
+.PlayIcon{
+    
+    color: #5468ff;
+    
+    font-size: 35px;
+    
+}
+.TolbarBg{
+    
+    height: 20%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.videoTitle{
+    margin-top: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.videoPrice{
+    margin-top: 5px;
+    padding-left: 10px;
+    color: #5468ff;
+
+}
+.videoDescription{
+    padding-left: 10px;
+    color: #a6baca;
+    margin-top: 0;
+}

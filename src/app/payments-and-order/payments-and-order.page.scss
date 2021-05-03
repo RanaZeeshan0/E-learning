@@ -1,0 +1,74 @@
+.BackBtnIcon{
+    position: absolute;
+    left: 4%;
+    color: black;
+    font-size: 30px;
+    
+}
+.Title{
+    font-size: 24px;
+    padding-left: 18%;
+    color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.Order-P-S-Btn{
+    width: 90%;
+    --background: white;
+    --color: #000;
+    font-size: 10px;
+    height: 40px;
+}
+.Order-P-S-Btn:hover{
+    width: 90%;
+    --background: #5468ff;
+    --color: #ffff;
+    font-size: 10px;
+    height: 40px;
+}
+.Active{
+    width: 90%;
+    --background: #5468ff;
+    --color: #ffff;
+    font-size: 10px;
+    height: 40px;
+}
+.BtnBox{
+    text-align: center;
+}
+.BtnRow{
+    margin-top: 1%;
+}
+.CardBox{
+    display: inline-flex;
+    width: 90%;
+}
+.CardHeader{
+    width: 15%;
+    padding: 5px;
+    padding-left: 10px;
+}
+.ion-text-left{
+    width: 85%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20px;
+}
+.OrderCrdAvtar{
+    width: 45px;
+    height: 45px;
+}
+.CrdTittle{
+    font-size: 14px;
+}
+.cardSubTittle1{
+    font-size: 12px;
+    color: #9fb5c6;
+    padding-top: 3px;
+}
+.CrdCol{
+    text-align: center;
+}

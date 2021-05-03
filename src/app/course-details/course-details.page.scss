@@ -1,0 +1,171 @@
+.Headr{
+    // --background-image: url(../../assets/images/undraw_Social_media_re_w12q.png);
+    height: 40%;
+    z-index: 0;
+}
+.Tolbar{
+    height: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    --background: #5468ff;
+    
+    
+}
+
+.BackBtnIcon{
+    position: absolute;
+    left: 4%;
+    color: #fff;
+    font-size: 30px;
+    
+}
+.Title{
+    font-size: 24px;
+    padding-left: 18%;
+    color: #fff;
+    margin-top: 5%;
+
+}
+.FilterIcon{
+    position: absolute;
+    right: 4%;
+    color: #fff;
+    font-size: 30px;
+}
+.BiologyBasics{
+    margin-top: 15%;
+    font-size: 12px;
+    color: #fff;
+}
+.BiologySM{
+font-size: 18px;
+color: #fff;
+}
+.StarIcon{
+    margin-top: 5px;
+    color: #ffc350;
+    font-size: 16px;
+}
+.RatingVoteText{
+    margin-top: 5px;
+    color: #fff;
+    padding-left: 15px;
+    font-size: 14px;
+}
+.AvtarText{
+    display: flex
+}
+.Avtar{
+    width: 25px;
+    height: 25px;
+}
+.AvtarSpan{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 10px;
+    color: #fff;
+    margin-left: 10px;
+
+}
+.BiologyBasicBox{
+    margin-top: 20%;
+}
+.TolbarRow{
+    margin-left: 4%;
+}
+.PurchasedBTN{
+    --background: #fff;
+    --color: #5468ff;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-top: 0;
+}
+.BtnBoxTolbar{
+    padding-top: 0;
+}
+.OrviewBtn{
+    height: 40px;
+    --background: #5468ff;
+}
+.LessnBtn{
+    height: 40px;
+    --background: transparent;
+    --color: black;
+}
+.LessnBtn:hover{
+    --background: #5468ff;
+    color: #fff;
+}
+.DescriptioRow{
+    margin-top: 20px;
+}
+.DescriptionTex{
+    font-size: 18px;
+    margin-left: 4%;    
+}
+.DescriptionPara{
+    margin-left: 4%;
+    color: #a5baca;
+    font-size: 14px;
+    margin-top: 0;
+}
+.circle1{
+    font-size: 10px;
+    color: #5468ff;
+    margin-left: 4%;
+    margin-right: 5px;
+}
+.circle2{
+    font-size: 10px;
+    color: #ffc350;
+    margin-left: 4%;
+    margin-right: 5px;
+}
+.circle3{
+    font-size: 10px;
+    color: #38cf9e;
+    margin-left: 4%;
+    margin-right: 5px;
+}
+.circleText{
+    font-size: 12px;
+}
+.Reviews{
+    font-size: 19px;
+    margin-left: 4%;
+}
+.files-2{
+    width: 40px;
+    height: 40px;
+}
+.main-head{
+    display: flex;
+    font-size: 12px;
+}
+.MikePara{
+    margin-top: 0;
+    display: grid;
+}
+.Review2hrsAgo{
+    color: #9babbf;
+    font-size: 14px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-weight: bold;
+}
+.ReviewCardLastP{
+    
+    
+    position: relative;
+    bottom: 20px;
+    font-size: 14px;
+
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a7c5ce5c;
+    color: #98a8bd;
+    left: 1%;
+}
+
+
+

@@ -1,0 +1,84 @@
+.BackBtnIcon{
+    position: absolute;
+    left: 4%;
+    color: black;
+    font-size: 30px;
+    
+}
+.Title{
+    font-size: 24px;
+    padding-left: 18%;
+    color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.Headr{
+    height: 10%;
+    z-index: 1;
+    
+    
+}
+.TolbarBg{
+    
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 8px 4px 1px #e6effa;
+}
+ion-item{
+    box-shadow: 0px 8px 4px 1px #e6effa;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+}
+.IonItemRow{
+    margin-top: 15px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.AddVideoInput{
+    width: 95%;
+    margin-left: 10px;
+    --padding-top: 15px;
+    --padding-bottom: 15px;
+    font-size: 12px;
+}
+ion-label{
+    font-weight: 700;
+}
+.IconCol{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 20%;
+}
+.ImageIcon{
+    color: #9fb5c6;
+}
+.UploadVideo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #9fb5c6;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.UploadVideoRow{
+    box-shadow: 0px 8px 4px 1px #e6effa;
+}
+.UploadBtn{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    font-size: 10px;
+    --background: #5468ff;
+    height: 45px;
+}

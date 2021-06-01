@@ -1,0 +1,163 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+  }
+  .toolbar{
+    height: 108px;
+    border-bottom-left-radius: 31px;
+    border-bottom-right-radius: 31px;
+    box-shadow: 0px 2px 5px 3px #5de2dc94;
+  background:white;
+  // padding-top: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .color{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+  
+  
+  }
+  .new{
+    border-radius: 12px;
+    padding: 6px 6px 5px 6px;
+    box-shadow: 0px 0px 7px 5px #4d6a7817;
+    font-size: x-small;
+    background: #ffffff;
+    font-weight: bold;
+  }
+  .sizee{
+  font-size: 23px;
+  }
+  #row1 ion-button{
+    --box-shadow: 0px 3px 7px 6px #64b5de36;
+    font-weight: 400;
+    font-size: 12.5px;
+    --background: white;
+    --color: rgb(0, 0, 0);
+    --border-radius: 29px;
+    text-transform: initial;
+  
+  }
+  .l-div{
+  
+    display: flex;align-items: center;
+  }
+  .l-span{
+  font-weight: 600;
+  color: rgba(53, 53, 240, 0.829);
+  font-size: xx-small;
+  margin-left: 4px;
+  }
+  .l-badge{
+  background: #f3e3246b;
+  color: #dea357;
+  font-size: 8px;
+  border-radius: 12px;
+  
+  padding: 5px 9px;
+  }
+  .l-img{
+  width: 21px;
+  height: 21px;
+  }
+  .pad{
+  padding: 5px 0px 0px 0px;
+  }
+  .column1{
+    padding: 0;
+  }
+  .subtitle1{
+    font-size: 9px;
+  display: inline;
+    }
+    .title1{
+      font-size:small;
+      font-weight: bold;
+      --color:rgba(0, 0, 0, 0.808);
+      padding-bottom:5px ;
+    }
+    .l-badge{
+      background: #f3e3246b;
+      color: #dea357;
+      font-size: 8px;
+      border-radius: 12px;
+  
+      padding: 5px 9px;
+    }
+    .l-img{
+      width: 21px;
+      height: 21px;
+    }
+    .iconn{
+      background: #3a49f9a6;
+      padding: 3px;
+      border-radius: 14px;
+      font-size: x-small;
+    }
+    .ionic-pic{
+      box-shadow: -3px 1px 7px 3px #3c3c3c21;
+  
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      height: 117px;
+      margin: 0;
+  
+    }
+  #img1{
+    --background: url(../../assets/images/chemistry.jpg);
+    background-size: cover;
+    background-position-x: -36px;
+  }
+  #img2{
+    --background: url(../../assets/images/new.jpg);
+    background-size: cover;
+    background-position-x: -85px;
+  }
+  #img3{
+    --background: url(../../assets/images/people3.png);
+    background-size: cover;
+    background-position-x: -59px;
+  }
+  .ion-i{
+    box-shadow: 3px 1px 7px 3px #3c3c3c21;
+    line-height: 1.3;
+    height: 117px;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px 20px 10px 10px;
+  }
+  .align{
+    display: flex;
+    align-items: center;
+  }
+  .badge2{
+    margin-top: 5px;
+    font-size: x-small;
+    float: right;
+    font-weight: bolder;
+  
+  }
+  .star{
+    color: rgb(191, 236, 26);
+    padding-right: 3px;
+    font-size: 10px;
+  
+  }
+  .starr{
+    padding: 0;
+  }
+  ion-chip {
+    ion-avatar{margin-right: 3px;
+    }
+    ion-label{
+      font-size: xx-small;font-weight: bold;
+      opacity: 0.85;
+    }
+  }
+  

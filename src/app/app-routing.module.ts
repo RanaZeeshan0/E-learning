@@ -59,6 +59,80 @@ const routes: Routes = [
     path: 'video-enhancment1',
     loadChildren: () => import('./video-enhancment1/video-enhancment1.module').then( m => m.VideoEnhancment1PageModule)
   },
+  {
+    path: 'course-details-overview',
+    loadChildren: () => import('./course-details-overview/course-details-overview.module').then( m => m.CourseDetailsOverviewPageModule)
+  },
+  {
+    path: 'course-details-enrolled',
+    loadChildren: () => import('./course-details-enrolled/course-details-enrolled.module').then( m => m.CourseDetailsEnrolledPageModule)
+  },
+  {
+    path: 'learnings',
+    loadChildren: () => import('./learnings/learnings.module').then( m => m.LearningsPageModule)
+  },
+  {
+    path: 'create-courses',
+    loadChildren: () => import('./create-courses/create-courses.module').then( m => m.CreateCoursesPageModule)
+  },
+
+
+  {
+    path: 'provider-detail-community',
+    loadChildren: () => import('./provider-detail-community/provider-detail-community.module').then( m => m.ProviderDetailCommunityPageModule)
+  },
+  {
+    path: 'test',
+    loadChildren: () => import('./test/test.module').then( m => m.TestPageModule)
+  },
+  {
+    path: 'provider-detail',
+    loadChildren: () => import('./provider-detail/provider-detail.module').then( m => m.ProviderDetailPageModule)
+  },
+  {
+    path: 'orders-and-payment-payment',
+    loadChildren: () => import('./orders-and-payment-payment/orders-and-payment-payment.module').then( m => m.OrdersAndPaymentPaymentPageModule)
+  },
+  {
+    path: 'learning',
+    loadChildren: () => import('./learning/learning.module').then( m => m.LearningPageModule)
+  },
+  {
+    path: 'create-courses-form',
+    loadChildren: () => import('./create-courses-form/create-courses-form.module').then( m => m.CreateCoursesFormPageModule)
+  },
+  {
+    path: 'customer-support',
+    loadChildren: () => import('./customer-support/customer-support.module').then( m => m.CustomerSupportPageModule)
+  },
+  {
+    path: 'tiemline-tab',
+    loadChildren: () => import('./tiemline-tab/tiemline-tab.module').then( m => m.TiemlineTabPageModule)
+  },
+  {
+    path: 'hi-antonio',
+    loadChildren: () => import('./hi-antonio/hi-antonio.module').then( m => m.HiAntonioPageModule)
+  },
+  {
+    path: 'guide',
+    loadChildren: () => import('./guide/guide.module').then( m => m.GuidePageModule)
+  },
+  {
+    path: 'create-courses2',
+    loadChildren: () => import('./create-courses2/create-courses2.module').then( m => m.CreateCourses2PageModule)
+  },
+  {
+    path: 'provider-detail-courses',
+    loadChildren: () => import('./provider-detail-courses/provider-detail-courses.module').then( m => m.ProviderDetailCoursesPageModule)
+  },
+  {
+    path: 'learnings-bookmark',
+    loadChildren: () => import('./learnings-bookmark/learnings-bookmark.module').then( m => m.LearningsBookmarkPageModule)
+  },
+  {
+    path: 'provider-detail-profile',
+    loadChildren: () => import('./provider-detail-profile/provider-detail-profile.module').then( m => m.ProviderDetailProfilePageModule)
+  },
 ];
 
 @NgModule({

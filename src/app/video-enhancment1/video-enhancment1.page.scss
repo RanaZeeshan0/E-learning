@@ -43,11 +43,13 @@
 .CardBox{
     display: inline-flex;
     width: 90%;
+    padding-top: 5px;
 }
 .CardHeader{
     width: 15%;
     padding: 5px;
     padding-left: 10px;
+    padding-top: 0;
 }
 .ion-text-left{
     width: 85%;
@@ -71,4 +73,78 @@
 }
 .CrdCol{
     text-align: center;
+}
+.PendingBtn{
+    width: 35%;
+    font-size: 10px;
+    text-transform: capitalize;
+    --background: #fff3dc;
+    color: #ffc350;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 33px;
+}
+.EstimatedBtn{
+    width: 35%;
+    font-size: 10px;
+    text-transform: capitalize;
+    --background: #dbd5f7;
+    color: #4c2fdc;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 33px;
+
+}
+.ProceccingBtn{
+    width: 35%;
+    font-size: 10px;
+    text-transform: capitalize;
+    --background: #fee5e7;
+    color: #fe6087;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 33px;
+}
+.CompletedBtn{
+    width: 35%;
+    font-size: 10px;
+    text-transform: capitalize;
+    --background: #d7f6eb;
+    color: #52d6ab;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 33px;
+}
+.ReviewdBtn{
+    width: 35%;
+    font-size: 10px;
+    text-transform: capitalize;
+    --background: #faf3db;
+    color: #ffb728;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 33px;
+}
+.RejecteddBtn{
+    width: 35%;
+    font-size: 10px;
+    text-transform: capitalize;
+    --background: #ffd7e4;
+    color: #ff415a;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 33px;
+}
+.CardRow{
+    margin-top: 10px;
+}
+.CardHeaderVideoIcon{
+    position: absolute;
+    font-size: 12px;
+    background: white;
+    color: blue;
+    top: 12%;
+    left: 43%;
+    border-radius: 70%;
+    padding: 5px;
 }

@@ -1,0 +1,132 @@
+.BackBtnIcon{
+  position: absolute;
+  left: 4%;
+  color: black;
+  font-size: 30px;
+  
+}
+.Title{
+  font-size: 24px;
+  padding-left: 18%;
+  color: black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+.Headr{
+  height: 10%;
+  z-index: 1;
+  
+  
+}
+.TolbarBg{
+  
+  height: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 8px 4px 1px #e6effa;
+}
+
+
+*{
+    letter-spacing: 0px;
+    font-family: 'Poppins', sans-serif;
+  color: black;
+  }
+  .toolbar{
+    height: 108px;
+    border-bottom-left-radius: 31px;
+    border-bottom-right-radius: 31px;
+    box-shadow: 0px 8px 4px 1px #e6effa;
+  background:white;
+  // padding-top: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .color{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .new{
+    border-radius: 12px;
+    padding: 6px 6px 5px 6px;
+    font-size: x-small;
+    box-shadow: 0px 8px 4px 1px #e6effa;
+    background: #ffffff;
+    font-weight: bold;
+  }
+  .sizee{
+    font-size: 23px;
+  }
+  .input1{
+    box-shadow: 0px 8px 4px 1px #e6effa;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-size: 11px;
+  height: 43px;
+  }
+  
+  .grid1{
+    margin: 0 7px;
+  ion-row{
+    margin: 5px 0 7px;
+  }
+  
+  ion-title{
+    padding: 0;
+    font-size: 15px;
+  font-weight: 600;
+  color: #000000bd;
+  }
+  }
+  
+  #btn-row{
+    text-align: center;
+    ion-button{
+    text-transform: capitalize;
+    width: 132px;
+    height: 39px;
+    --background: white;
+    letter-spacing: 0px;
+  }}
+  ion-textarea{
+    margin: 0px;
+    font-size: 11px;
+    --background:white;
+    border-radius: 4px;
+    box-shadow: 0px 8px 4px 1px #e6effa;
+  height: 141px;
+  }
+  .divl{
+    height: 144px;
+      width: 100%;
+      background: #dbdee6;
+      border-radius: 8px;
+      box-shadow: 0px 8px 4px 1px #e6effa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .iconl{
+      font-size: 39px;
+      border-radius: 8px;
+      color: #999ba2;
+  
+    }
+  a{
+    text-decoration: none;
+  }
+  #titlel{
+    font-size: 18px;
+    color: #909197;
+    font-weight: 500;
+  
+  }
+  .btn{
+  height: 52px;
+  font-size: 12px;
+  
+  }
+  
